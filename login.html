@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/design.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css'>
+<script src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="css/android.css">
+
+
+</head>
+<body>
+
+	
+
+	<div id="main_header_con">
+
+		<div id="main_header_left">
+			<img id="header_logo" src="media/logo.png">
+			
+		</div>
+
+		<div id="main_header_right">
+
+			<div id="notify_con" >	
+	           <a href="tel:+91 9560912748"><i class="fa fa-phone" id="phone_icon"></i>&nbsp;</a> &nbsp; <label>+91 9663143896 / +91 9164535096</label>
+	           <a href="mail:contact@omkartechsolution.in"> <i class="fa fa-envelope" id="phone_icon"></i>&nbsp;</a>&nbsp;<label>contact@omkartechsolution.in</label> 
+			</div>
+
+
+			<div id="navigation_con">
+                <button  onclick="home()" >Home</button>
+				<button onclick="training()">Training&Placement</button>
+				<button onclick="open_internship()">Internship&Workshop</button>
+				<button  onclick="project()">Project</button>
+				<button onclick="contact()" >Contact</button>
+				<button  onclick="loginpage()">Login</button>
+				
+			</div>
+			<div id="social_media">
+			<a href="https://www.instagram.com/caddesk_chikkabanavara?igsh=MWJtMWI3N2RxY21vaA=="><img src="media/insta.png" id="social_icon"></a>
+				<a href="https://www.facebook.com/profile.php?id=100086098930633&mibextid=ZbWKwL"><img src="media/facebook.png" id="social_icon"></a>
+				<a href="https://wa.me/9164535096"><img src="media/whatsapp.png" id="social_icon"></a>
+			</div>
+
+
+
+		</div>
+	</div>
+
+	<div id="login_con">
+		<div id="login_left">
+
+			<img src="media/login.png" id="login_logo">
+
+		</div>
+		<div id="login_right">
+
+			<div id="login_content">
+				<h1 id="error_msg">Authorised Login</h1>
+				<p>Enter Admin ID</p>
+				<input type="password" id="email_id">
+				<p>Enter Password</p>
+				<input type="password" id="password"> <br>
+				<button onclick="login()">Login</button>
+				
+			</div>
+			
+           
+           
+		</div>
+
+		
+	</div>
+
+	<div id="admindash_con" style="display: none;">
+
+			<div id="admindash_left">
+
+				<button onclick="refresh()">Enquiry Details</button> <br>
+				<button onclick="projectenq()">Project Enquiery</button> <br>
+				<button onclick="student()">Student Applied</button> <br>
+				<button onclick="logout()">Logout</button>		
+
+			</div>
+			<div id="admindash_right_enq">
+				<div id="haed">
+					<p>Enquiry Details</p> 
+				</div>
+				<table id="enq_data" border="1"></table>   
+			</div>
+
+			<div id="admindash_right_project" style="display: none;">
+				<div id="haed">
+					<p>Project Enquiry Details</p> 
+				</div>
+				<table id="pro_data" border="1"></table>   
+			</div>
+
+			<div id="admindash_right_student" style="display: none;">
+				<div id="haed">
+					<p>Student Applied Details</p> 
+				</div>
+				<table id="stu_data" border="1"></table>   
+			</div>
+
+			<script type="text/javascript">
+				function projectenq(){
+					document.getElementById('admindash_right_enq').style.display="none";
+					document.getElementById('admindash_right_student').style.display="none";
+					document.getElementById('admindash_right_project').style.display="block";
+				}
+				function student(){
+					document.getElementById('admindash_right_enq').style.display="none";
+					document.getElementById('admindash_right_student').style.display="block";
+					document.getElementById('admindash_right_project').style.display="none";
+				}
+				function refresh(){
+					window.location.reload();
+				}
+
+
+			</script>
+
+		
+	</div>
+
+
+	<!-- footer section -->
+	<div id="footer">
+		<div id="footer_left">
+
+			<p >Important Links</p>
+			<a href="internship.html" id="f_link">Internship & Workshop</a> <br><br>
+			<a href="training.html" id="f_link">Training & Placement</a> <br><br>
+			<a href="project.html"id="f_link">Project</a> <br>
+			
+		</div>
+		<div id="footer_center">
+
+			<p>Important Links</p>
+			<a href="apply.html" id="f_link">Apply for Internship</a> <br><br>
+			<a href="enquiry.html" id="f_link">Ask Your Query</a> <br><br>
+			<a href="login.html"id="f_link">Admin Login</a> <br>
+			
+			
+		</div>      
+		<div id="footer_right">
+
+			<p>Corporate Office Address</p>
+			<p style="font-weight: normal;">1st floor, CAD DESK, 360,80ft Road, Krishna kaveri Towers, 
+				beside Ocean Cafe, AGB Layout, Bengaluru, Karnataka 560090.</p>
+			
+				<p style="font-weight: normal;"> <b>Contact :</b> 9663143896</p>
+				<p style="font-weight: normal;"><b>Email :</b> contact@omkartechsolution.in</p>
+			
+			
+		</div>
+
+	</div>
+	<!-- end footer section -->
+
+
+	<!-- copyright section -->
+	<div id="copy_con">
+
+           <a href="https://www.k-akatechnology.in/"> Copyright @ K-AKA Technology Services ( KTS ) - 2024 </a>
+	</div>	
+	<!-- end copyright section -->
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+  	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+	<script type="text/javascript" src="js/conection.js"></script>
+	<script type="text/javascript" src="js/enq.js"></script>
+
+	<script type="text/javascript">
+		firebase.auth().onAuthStateChanged(function(user){
+		if(user)
+		{
+			//pass
+			document.getElementById("login_con").style.display="none";
+			document.getElementById("admindash_con").style.display="block";
+			fetchenqdata();
+			fetchprodata();
+			fetchstudata();
+
+
+		}
+		else{
+			
+		}
+	});
+	</script>
+</html>
