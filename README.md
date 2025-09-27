@@ -19,7 +19,7 @@ Although the site is not deployed live anymore, this repository showcases the co
 Built as part of client projects at K-AKA Technology Services, focusing on delivering practical and visually appealing websites.
 
 ## Homepage Screenshots
-![Homepage Screenshot](images/home.png)
+![Homepage Screenshot](media/home.png)
  
 
 ## Note
