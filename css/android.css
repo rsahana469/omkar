@@ -1,0 +1,855 @@
+@media only screen and (max-width: 600px) {
+
+
+	#certificate_con{
+	height: 650px;
+	width: 98%;
+	margin-bottom: 5%;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#certificate_left{
+	display: block;
+	width: 100%;
+	float: left;
+	height: 380px;
+	padding-left: 5%;
+	padding-top: 1%; 
+
+	
+}
+#certificate_left p{
+  text-align: justify;
+  margin-right: 2%;
+
+
+}
+
+
+#certificate_left h2{
+	font-weight: bold;
+}
+#certificate_right{
+	display: block;
+  width: 100%;
+  float: right;
+  height: 300px;
+
+}
+#cert_image{
+	height: 280px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+
+	#apply_form_left button{
+	 width: 50%;
+	 height: 35px;
+	 border-radius: 10px;
+	font-weight: bold;
+	background-color: #b05d10;
+	color: white;
+	border: none;
+}
+
+#g_main{
+	display: none;
+}
+
+#service_con{
+	text-align: center;
+	margin-top: 3%;
+	margin-right: 7%;
+
+
+}
+
+#service_left{
+
+	display:block;
+	width: 100%;
+	margin-left: 0%;
+	text-align: center;
+	height: 380px;
+
+}
+#sucess_icon{
+	font-size:25px;
+	color: red;
+	
+}
+#sucess_point {
+	font-size:25px;
+	 font-family:monospace;
+	 color:red;
+	 margin-top: 2%;
+	
+}
+#company_content {
+
+	width: 70%;
+	margin-top: 6%;
+	text-align: justify;
+	font-family: monospace;
+	font-size: 15px;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	padding-left: 4%;
+	
+
+}
+#s_image{
+	height: 100%;
+	width: 100%;
+	
+}
+.snip1577 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 1px 4px 5px black;
+  height: 300px;
+  min-width: 0px;
+  max-width: 350px;
+  width: 85%;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #333232;
+}
+#service_middle{
+
+	display: block;
+	width: 100%;
+    margin-left: 0%;
+    text-align: center;
+	height: 380px;
+
+}
+
+#service_heading{
+	
+	width: 100%;
+	margin-left: 4%;
+	font-size: 20px;
+	padding-top: 4%;
+	display: none;
+}
+
+#service_right{
+
+  display: block;
+  width: 100%;
+  margin-left: 0%;
+  text-align: center;
+ 		height: 380px;
+
+}
+#navigation_con{
+	
+	margin-top: 1%;
+	width: 75%;
+	height: 65px;
+	box-shadow: 5px 5px 10px black;
+	display: inline-block;
+	float: left;
+  aspect-ratio: 3/1;
+  display: none;
+}
+#main_header_con{
+
+	width: 100%;
+	height: 120px;
+	display: none;
+}
+#logo_body{
+	width: 80%;
+	height: 300px;
+	margin-left: 10%;
+	margin-top: 2%;
+
+}
+#social_icon{
+	height: 30px;
+	width: 30px;
+	margin-top: 3%;
+	margin-left: 10%;
+	border-radius: 30%;
+
+}
+
+#intro_left{
+	display: block;
+	width: 100%;
+	float: none;	
+	margin-top: 2%;
+	height: 320px;
+
+}
+.content_left_info{
+	display: none;
+}
+.c_flot_btn {
+	background-color :inherit;
+	border: none;
+	display: block;
+	
+  }
+#intro_right{
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-top: 2%;
+	height: 450px;
+   background-image: url('../media/suc_con.png');
+
+
+
+}
+
+#conatct_con{
+	height: 200px;
+	width: 100%;
+	margin-top: 5%;
+	background-image: url('../media/c_back.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+
+}
+#contact_left{
+	display: block;
+	width: 100%;
+	margin-left: 0%;
+	color: black;
+	font-weight: bold;
+	padding-top: 1%;
+
+}
+#contact_right{
+	display: block;
+  width: 100%;
+  text-align: center;
+
+}
+#contact_left p{
+	font-size: 25px;
+	padding-top:10%;
+	font-weight: bold;
+	font-family: monospace;
+	padding-left: 8%;
+	
+}
+
+#contact_right button{
+	height: 45px;
+	width: 50%;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: bold;
+	border: 2px solid black;
+
+}
+#f_left{
+	display: block;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	height: 200px;
+	float: left;
+	font-family: georgia;
+	padding-top: 6%;
+	padding-left: 8%;
+
+}
+#f_right{
+	display:block;
+  width: 100%;
+  float: right;
+  margin-top: 4%;
+  margin-right: 7%;
+
+}
+
+#partner_logo{
+	height: 150px;
+	width: 100%;
+	
+}
+#partner_con{
+	width: 100%;
+	height: 400px;
+
+	
+}
+#count_left{
+	display: none;
+	width: 100%;
+	height: 380px;	
+	margin-left: 3%;
+
+
+}
+#count_right{
+  display: block;
+  width: 100%;
+  height: 380px;
+  float: right;
+  background-image: url("../media/suc_con.png");
+  background-size: cover;
+
+}
+#count_con{
+	margin-top: 3%;
+	margin-left: 10%;
+}
+.box {
+  position: relative;
+  margin: 40px auto;
+  width: 80%;
+  height: 190px;
+  background: ghostwhite;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#testimony_left{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 5%;
+	height: 220px;
+	padding-top: 4%;
+
+	
+}
+#testimony_right{
+  display: block;
+  width: 100%;
+  float: right;
+  height: 200px;
+  padding-top: 2%;
+}
+
+#testimony_right p{
+	font-size: 13px;
+	text-align: justify;
+	width: 100%;
+	margin-left: 2%;
+	padding-right: 5%;
+}
+
+#testimony_img{
+	height: 250px;
+	width: 200px;
+	
+}
+#testimonial_con{
+	width: 100%;
+	height: 840px;
+	text-align: center;
+	margin-left: 3%;
+	
+}
+
+#review_con{
+	width: 100%;
+	height: 120px;
+	margin-top: 8%;
+	/* background-color: rgb(218, 155, 103); */
+	background-image: url("../media/c_back.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+#review_left p{
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	margin-left: 5%;
+	margin-top: 5%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+	
+}
+
+#review_left{
+	display:block;
+	width: 100%;
+	float: left;
+	padding-left: 2%;
+	padding-top: 1%;
+	margin-bottom: 2%;
+	height: 120px;
+
+}
+#review_right{
+	display: none;
+  width: 100%;	
+  float: right;
+  height: 0px;
+ 
+}
+#android_header{
+	display: block;
+	height: 40px;
+	margin-top: 0%;
+}
+
+#android_header_left{
+	display:inline-block;
+	width: 20%;
+	float: left;
+	height: 50px;
+}
+
+#android_header_right{
+		display:inline-block;
+		width: 40%;
+		float: right;
+		height: 50px;
+		
+}
+
+#contact_right button{
+	height: 45px;
+	width: 50%;
+	background-color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	border: none;
+}
+#review_left p{
+	display: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	margin-left: 30%;
+	margin-top: 5%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+	
+}
+
+#review_btn{
+	width: 50%;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	margin-left: 25%;
+	margin-top: 8%;
+
+}
+#sep{
+	background-image: url('../media/par_con.png');
+	background-size: cover;
+	height: 43px;
+	width: 100%;
+}
+
+#footer_left{
+
+	display: block;
+	width: 100%;
+	margin-left: 2%;
+	text-align: center;
+	margin-left: 0%;
+	margin-top: 0%;
+
+
+}
+#footer_left p{
+	font-weight: bolder;
+	
+}
+
+#footer_center{
+
+	display: block;
+	width: 100%;
+    margin-top: 2%;
+    text-align: center;
+	margin-left: 0%;
+
+}
+
+#footer_right{
+
+  display: block;
+  width: 100%;
+  margin-top: 2%;
+  text-align: center;
+  padding-right: 2%;
+
+}
+
+#footer{	
+	margin-top: 0%;
+	background-color: #ebeef2;
+	height: 500px;
+	width: 100%;
+	margin-right: 2%;
+}
+
+
+#internship_con{
+	height: 300px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 2%;
+
+}
+#internshipproject_con{
+	height: 350px;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 2%;
+
+}
+
+#internship_left{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 5%;
+
+}
+#internship_right{
+	display: block;
+  width: 100%;
+  float: right;
+  padding-top: 5%;
+  text-align: center;
+
+}
+
+#contact_template_icon{
+	width: 55%;
+	height:200px;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+#secondry_template_heading{
+	
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+#tertiary_template_heading{
+	 text-align: justify;
+	 color: black;
+	 font-size: 16px;
+	 margin-left: 4%;
+	 margin-right: 4%;
+
+}
+ #child{
+ 	display: block;
+ 	width: 75%;
+ 	height: 200px;
+ 	margin-left: 5%;
+ }
+ #ele_cour_logo{
+	height: 80%;
+	width: 90%;
+	margin-top: 2%;
+}
+#train_btn{
+	width: 90%;
+	height: 40px;
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #b05d10;
+	border: none	;
+	margin-top:40px;
+}
+#cour_logo{
+	height: 80%;
+	width: 90%;
+	margin-top: 3%;
+}
+
+
+#enq_form_con{
+	height: 700px;
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#enq_form_left{
+	display: block;
+	width: 100%;
+	float: left;
+	height: 350px;
+	text-align: center;
+
+}
+#enq_form_right{
+	display: block;
+  width: 100%;
+  float: right;
+  height: 300px;
+  padding-top: 3%;
+  padding-left: 20%;
+
+}
+#c_con{
+	margin-top: 0%;
+padding-top: 5%;
+margin-right: 0%;
+background-image: none;
+background-repeat: no-repeat;
+
+
+}
+select, input{
+	margin-top: 20px;
+	width: 40%;
+	height: 30px;
+	border: none;
+	border-bottom: 2px solid #b05d10;
+
+}
+#enq_btn{
+	height: 40px;
+	width: 40%;
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: #b05d10;
+	color: white;
+	border: none;
+	
+}
+#project_form_con{
+	height: 750px;
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 0%;
+}
+
+#project_form_left{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 5%;
+	height: 370px;
+	padding-top: 6%;
+	text-align: justify;
+	font-weight: normal;
+	font-size: 20px;
+
+	
+	/* background-color: red; */
+	
+}
+#project_form_left p{
+	margin-right: 5%;
+	font-size: 16px;
+}
+#project_form_left h1{
+	font-size: 30px;
+	font-weight: bold;
+}
+#project_form_right{
+	display:block;
+  width: 100%;
+  float: right;
+  height: 300px;
+  padding-top: 4%;
+  /* background-color: green; */
+  text-align: center;
+}
+#project_form_right p{
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 7%;
+	margin-bottom: 3%;
+}
+#project_form_right input{
+	width: 70%;
+	margin-bottom: 10px;
+
+}
+#project_btn{
+		height: 40px;
+	width: 40%;
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: #b05d10;
+	color: white;
+	margin-left: 0%;
+	margin-top: 5%;
+	border: none;
+}
+
+#inter_template_icon{
+	width: 80%;
+	height:300px;
+	margin-left: 10%;
+}
+
+#about_internship{
+	width: 100%;
+	margin-top: 2%;
+	height: 800px;
+
+}
+
+#intern_left{
+	display: block;
+	width: 100%;
+	float: left;
+	height: 350px;
+	padding-top: 5%;
+	padding-left: 5%;
+}
+#intern_left p{
+	width: 90%;
+	font-size: 18px;
+	text-align: justify;
+	font-weight: bold;
+}
+#course-list {
+ 	text-align: center;
+ 	margin-top: 2%;
+ }
+ #course-list button{
+ 	height: 45px;
+	width: 60%;
+	margin-bottom: 2%;
+	background-color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+	background-color: #b05d10;
+	color: white;
+ }
+
+#intern_right{
+	display: block;
+  width: 100%;
+  float: right;
+  padding-left: 5%;	
+  height: 350px;
+}
+#internship_course_img{
+	height: 300px;
+	width: 90%;
+}
+
+#Enquiry{
+	height: 170px;
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 10%;
+	
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+
+}
+#Enquiry p{
+	height: 60px;
+	width: 100%;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 2%;
+	padding-top: 5%;
+	text-align: justify;
+
+}
+
+#Enquiry button{
+	width: 60%;
+	height: 60px;
+	margin-left: 20%;
+	border-radius: 10px;
+	border: none;
+	font-weight: bold;
+	background-color: #b05d10 ;
+	color: white;
+	margin-top: 4%;
+
+}
+
+
+
+}
+
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  background-color: #f6fdff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel-content{
+    width: 80%;
+    margin-left: 7%;
+    
+}
+
+
+.sidepanel a {
+  
+  text-decoration: none;
+  font-size: 18px;
+  color: #b05d10;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+  padding-left: 30%;
+  padding-top: 2%;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 66px;
+}
+.android_menu_logo{
+    height: 150px;
+    width: 60%;
+    border-radius: 0%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+   
+}
+#androidbtn{
+	height: 80%;
+	width: 60%;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: #b05d10;
+	color: white;
+	border: none;
+}
