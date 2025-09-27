@@ -1,7 +1,10 @@
-# Omkar Tech Solutions
-
-This website was developed during my time at a startup for real clients.  
+## Note
+This site is not live anymore, but the repository remains as part of my portfolio.
+This was developed during my time at a startup for real clients.  
 Although the site is not deployed live anymore, this repository showcases the code, design, and development work I contributed.
+
+# Omkar Tech Solutions
+Corporate website for an engineering and design training company offering CAD/CAM/CAE solutions and interior design services with innovation-driven focus.
 
 ## Tech Stack
 - HTML
@@ -20,7 +23,3 @@ Built as part of client projects at K-AKA Technology Services, focusing on deliv
 
 ## Homepage Screenshots
 ![Homepage Screenshot](media/home.png)
- 
-
-## Note
-This site is not live anymore, but the repository remains as part of my portfolio.
